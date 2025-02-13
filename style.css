@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  background-color: #662E9B;
+}
+
+
+
+.posts {
+  border-radius: 10px 0 0 10px;
+  color: white;
+  padding: 30px;
+  background-image: linear-gradient(70deg, #b44559, #662E9B);
+  display: flex;
+  flex-direction: column;
+  flex-basis: 1116px;
+  flex-grow: 1;
+  flex-shrink: 2;
+}
+
+.users {
+  background-image: linear-gradient(50deg, #b44559, #662E9B);
+  padding: 30px 40px 15px 30px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 350px;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+.users .user {
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 13px 10px 10px 17px;
+  margin-bottom: 15px;
+  background-color: #FBF9FF;
+  cursor: pointer;
+}
+
+.user-name {
+  font-size: 1.4rem;
+}
+
+.user-email {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 3px;
+}
+
+.posts .post {
+  margin-bottom: 25px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.posts .post-title {
+  border-bottom: 1px solid;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.posts .post-body {
+  padding: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.users .active {
+  border: 2px dashed #ff6600;
+  box-shadow: 0 0 2px 3px inset #ff0000;
+  transform: scale(1.1);
+}
