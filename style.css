@@ -78,7 +78,7 @@ html {
 }
 
 .users .active {
-  border: 2px dashed #ff6600;
+  border: 2px solid #ff3c00;
   box-shadow: 0 0 2px 3px inset #ff0000;
   transform: scale(1.1);
 }
